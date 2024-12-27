@@ -96,18 +96,21 @@ span{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .home-img{
     border-right: solid 0.2rem; 
     border-bottom: solid 0.2rem;
     border-image: linear-gradient(135deg,transparent 50%,--main-color);
+    background-image:url
 }
 
 .sobre-img{
     border-left: solid 0.3rem; 
     border-bottom: solid 0.3rem;
     border-image: linear-gradient(225deg,transparent 50%,--main-color);
+    background-image:url(../img/sem\ fundo.png)
 }
 
 
@@ -498,16 +501,20 @@ section{
     width: 150px; /* Ajusta a largura da imagem para 150px */
     height: 150px; /* Ajusta a altura da imagem para 150px */
     object-fit: cover; /* Garante que a imagem não distorça */
+    background-image:url(../img/senha.png)
+
 }
 .portfólio-box img {
     width: 150px; /* Ajusta a largura da imagem para 150px */
     height: 150px; /* Ajusta a altura da imagem para 150px */
     object-fit: cover; /* Garante que a imagem não distorça */
+    background-image:url(../img/tarefas.png)
 }
 .portfólio-box img {
     width: 150px; /* Ajusta a largura da imagem para 150px */
     height: 150px; /* Ajusta a altura da imagem para 150px */
     object-fit: cover; /* Garante que a imagem não distorça */
+    background-image:url(../img/internet.png)
 }
 a {
     color: #3498db; /* Cor do link */
